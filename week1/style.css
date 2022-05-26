@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.heading{
+  text-align: center;
+  font-size: 3rem;
+  color: green;
+  margin-bottom: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+#wrapper{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  border: thick solid green;
+  padding: 10px;
+  column-gap: 2em;
+  row-gap: 2em;
+  margin: 10px 10px 0 10px;
+
+
+}
+.images{
+  width: 50px;
+  height: 100px;
+  }
+
